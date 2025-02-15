@@ -1,55 +1,46 @@
-# 🏡 Bangalore Home Price Predictor
+HOUSE PRICE PREDICTOR
 
-## 📌 Overview
-A web app that predicts house prices in Bangalore based on inputs like area type, location, square footage, balconies, bathrooms, and BHKs.
+Overview
 
-## 🛠️ Tech Stack
-- **Python**
-- **Streamlit & Flask** (for web app & API)
-- **scikit-learn, numpy, pandas** (for ML model)
-- **Matplotlib, Seaborn** (for data visualization)
+This web application predicts house prices in Bangalore based on inputs such as area type, location, square footage, balconies, bathrooms, and BHKs.
 
-## 📂 Project Structure
-```
-Home-Price-Predictor/
-│── artifacts/ (Model & JSON files)
-│── data/ (Raw & cleaned datasets)
-│── notebooks/ (Jupyter Notebooks)
-│── src/ (Streamlit & Flask app)
-│── deployment/ (Deployment files)
-│── README.md
-│── requirements.txt
-```
+Tech Stack
+	•	Python
+	•	Streamlit & Flask
+	•	scikit-learn, numpy, pandas
+	•	Matplotlib, Seaborn
 
-## 🖥️ Setup & Run
-### 1️⃣ Clone the Repository
-```sh
-git clone https://github.com/SimranGitCode/House-Price-Predictor-Project.git
-cd House-Price-Predictor-Project
-```
+Setup and Run
+	1.	Clone the repository:
 
-### 2️⃣ Install Dependencies
-```sh
-pip install -r requirements.txt
-```
+git clone https://github.com/SimranGitCode/House-Price-Predictor-Project.git  
+cd House-Price-Predictor-Project  
 
-### 3️⃣ Run the Streamlit App
-```sh
-streamlit run src/app.py
-```
 
-### 4️⃣ Run the Flask API (Optional)
-```sh
-python src/Server_flask.py
-```
+	2.	Install dependencies:
 
-## 🎯 Usage
-- Open the **Streamlit app** in your browser.
-- Enter property details and click **Predict**.
+pip install -r requirements.txt  
 
-## 📜 License
+
+	3.	Run the Streamlit app:
+
+streamlit run src/app.py  
+
+
+	4.	Run the Flask API (optional):
+
+python src/Server_flask.py  
+
+
+
+Usage
+
+Enter property details in the Streamlit app and click Predict to get the estimated price.
+
+
+ License
 Open-source under the **MIT License**.
 
 ---
- 💡 **Feel free to contribute!** 🚀
+ **Feel free to contribute!** 🚀
 
