@@ -1,46 +1,28 @@
-HOUSE PRICE PREDICTOR
+# Home Price Predictor  
 
-Overview
+A web application built in Python that predicts real estate property prices based on key features.  
 
-This web application predicts house prices in Bangalore based on inputs such as area type, location, square footage, balconies, bathrooms, and BHKs.
+## Libraries Used  
+The project utilizes the following Python libraries:  
 
-Tech Stack
-	•	Python
-	•	Streamlit & Flask
-	•	scikit-learn, numpy, pandas
-	•	Matplotlib, Seaborn
+- numpy  
+- pandas  
+- matplotlib  
+- seaborn  
+- sklearn  
+- pickle  
+- flask  
+- streamlit  
+- json  
 
-Setup and Run
-	1.	Clone the repository:
+## Features Used for Prediction  
+The model predicts house prices based on the following features:  
 
-git clone https://github.com/SimranGitCode/House-Price-Predictor-Project.git  
-cd House-Price-Predictor-Project  
+- **area_type**  
+- **location**  
+- **total_sqft**  
+- **balcony**  
+- **bathroom**  
+- **BHK**  
 
-
-	2.	Install dependencies:
-
-pip install -r requirements.txt  
-
-
-	3.	Run the Streamlit app:
-
-streamlit run src/app.py  
-
-
-	4.	Run the Flask API (optional):
-
-python src/Server_flask.py  
-
-
-
-Usage
-
-Enter property details in the Streamlit app and click Predict to get the estimated price.
-
-
- License
-Open-source under the **MIT License**.
-
----
- **Feel free to contribute!** 🚀
-
+The project integrates machine learning techniques to analyze and predict property prices effectively.  
